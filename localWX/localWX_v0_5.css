@@ -1,0 +1,12 @@
+/*bootstrap loaded   */
+
+body{
+  background-color: LightSteelBlue;
+  color: black;
+  text-align: center
+}
+#mainWell{
+  background-color: green;
+  margin-top: 20px;
+}
+
