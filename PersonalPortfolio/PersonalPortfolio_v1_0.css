@@ -1,0 +1,81 @@
+/* Using bootstrap:  https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css */
+
+body{
+  background-color: black;
+  color: white;
+}
+.sectionHeaders{
+  font-size: 30px;
+}
+.navElements {
+  width: 100%;
+  margin: 0 0 3em 0;
+  float: left;
+  padding: 0;
+  background-color: #555;
+  list-style: none;
+  border: 3px solid black; 
+ border-bottom: 3px solid black;
+  position: fixed;
+  z-index: 1;
+}
+.navElements li {
+  float: left;
+}
+.navElements li a {
+  display: block;
+  padding: 10px 24px;
+  text-decoration: none;
+  border-right: 3px solid black;
+  color: white;
+  font-weight: bold;
+}
+
+.navElements li a:hover {
+  background-color: blue;
+  color: black;
+}
+
+#aboutMe{
+  padding: 3em 2em;
+  background-color: darkcyan;
+  font-weight: bold;
+  font-size: 20px;
+}
+#portfolioSection{
+  background-color: lightsteelblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  padding: 2em 0;
+}
+#portfolioSection a img {
+  max-width: 90%;
+	height: auto;
+  margin: 1em 0;
+  border: 4px solid #333;
+  border-radius: 4%;
+}
+#contactArea{
+  padding: 2em;
+  background-color: darkslategray;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.contactButtons a {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid black;
+  margin: 1%;
+  padding:6px 12px;
+}
+.contactButtons a:hover {
+  background-color: yellow;
+  border: 3px solid blue;
+  color: blue;
+}
