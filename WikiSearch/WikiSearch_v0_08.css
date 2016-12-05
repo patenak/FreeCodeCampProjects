@@ -1,0 +1,37 @@
+/* CSS // v.08 // 04-DEC-2016 //k.patenaude
+/Bootstrap loaded: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css  */
+
+body {
+	background-color: darkslategray;
+	color: white;
+	font-family: Tahoma;
+	margin: 1.5em;
+}
+input, form .btn {
+	height: 2.5em;
+	margin-top: 0.5em;
+	vertical-align: middle;
+	border: solid 2px black;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+.linkBoxes .btn{
+	color: black;
+	white-space: normal;
+	margin-top: 1em;
+	padding: 0.5em;
+	background-color: gray;
+	border: solid 3px yellow;
+	border-radius: 6px;
+	text-align: left;
+}
+.linkBoxes a:link {
+	color: white;
+}
+.linkBoxes a:hover {
+	color: black;
+	border-radius: 8px;
+	border: solid 3px black;
+}

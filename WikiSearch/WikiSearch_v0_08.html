@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<title>PLAYGROUND</title>
+	<body>
+		<h1>WIKIPEDIA SEARCH</h1>
+		<hr />
+		<form name="searchform">
+			<fieldset id="fieldSet">
+				ENTER SEARCH TERM:<br/>
+				<input type="text" name="searchterm" onkeypress="return event.keyCode != 13;">
+				<button class="btn btn-default" type="button" onclick="getter()">Search Wikipedia</button>
+				<a class="btn btn-default" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Open Random Wiki</a><br/>
+			</fieldset>
+		</form>
+		<p id="outputHolder"></p>
+		<p id="outString"></p>
+	</body>
+</html>
