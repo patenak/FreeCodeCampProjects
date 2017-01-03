@@ -1,0 +1,72 @@
+/*https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css */
+
+body {
+  background-color: purple;
+  color: Snow;
+  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  vertical-align: center;
+  background-color: grey;
+}
+
+.title {
+  margin-top: 3em;
+  background-color: purple;
+  border: 3px solid Snow;
+  padding-top: 0.5em;
+}
+
+.useid {
+  border: 3px solid Snow;
+  background-color: purple;
+  padding: 1em;
+  text-align: center;
+}
+
+.streamer {
+  border: 3px solid Snow;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.isOffline {
+  background-color: red;
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.isUnknown {
+  background-color: orange;
+}
+
+/* row hieght solution?  ############
+http://stackoverflow.com/questions/19695784/
+how-can-i-make-bootstrap-columns-all-the-same-height
+breaks bottom border...... hmmmm
+*/
+
+.row{
+    overflow: hidden; 
+}
+[class*="col-"]{
+    margin-bottom: -99990px;
+    padding-bottom: 99999px;
+}
+
+/*link colors: */
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
